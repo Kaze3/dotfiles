@@ -4,6 +4,7 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
+[[ -f ~/.bash_profile_custom ]] && . ~/.bash_profile_custom
+
 # Environment Variables
-export PATH="/home/htpc/Scripts/bin:$PATH"
 export EDITOR='emacs -nw'

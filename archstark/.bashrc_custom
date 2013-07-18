@@ -1,0 +1,5 @@
+#
+# ~/.bashrc_custom
+#
+
+alias henry='ssh htpc@henry'
