@@ -3,5 +3,5 @@ Linux Config
 
 Custom Linux configuration files:
 
-.bashrc
+.bashrc  
 .bash_profile (Henry HTPC)
