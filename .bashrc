@@ -17,3 +17,6 @@ alias rmr='rm -R'
 alias wget='wget --content-disposition'
 alias search-running='ps ax | grep'
 alias emacs='emacs -nw'
+
+# Environment Variables
+export EDITOR='emacs -nw'

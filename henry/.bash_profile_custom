@@ -1,5 +1,0 @@
-#
-# ~/.bash_profile_custom
-#
-
-export PATH="/home/htpc/Scripts/bin:$PATH"

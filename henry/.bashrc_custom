@@ -2,5 +2,9 @@
 # ~/.bashrc_custom
 #
 
+# Aliases
 alias irc='screen -dRR irssi' # open irc interface
 alias torrents='screen -R rtorrent' # open rtorrent
+
+# Environment Variables
+export PATH="/home/htpc/Scripts/bin:$PATH"
