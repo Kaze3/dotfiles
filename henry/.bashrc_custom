@@ -1,0 +1,6 @@
+#
+# ~/.bashrc_custom
+#
+
+alias irc='screen -dRR irssi' # open irc interface
+alias torrents='screen -R rtorrent' # open rtorrent
