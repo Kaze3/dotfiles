@@ -17,4 +17,4 @@ alias wget='wget --content-disposition'
 alias search-running='ps ax | grep'
 
 # Environment Variables
-export EDITOR=emacs
+export EDITOR='emacs -nw'
