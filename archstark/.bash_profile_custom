@@ -1,0 +1,12 @@
+#
+# ~/.bash_profile_custom
+#
+
+# TeX Live                                                                   
+export PATH=/usr/local/texlive/2012/bin/x86_64-linux:$PATH
+export MANPATH=/usr/local/texlive/2012/texmf/doc/man:$MANPATH
+export INFOPATH=/usr/local/texlive/2012/texmf/doc/info:$INFOPATH
+
+# virtualenv                                                                 
+export WORKON_HOME=~/.virtualenvs
+source /usr/bin/virtualenvwrapper.sh
