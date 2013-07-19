@@ -4,4 +4,5 @@ Linux Config
 Custom Linux configuration files:
 
 .bashrc  
-.bash_profile (Henry HTPC)
+.bashrc_custom (henry, archstark, diamrd2545)
+.emacs
