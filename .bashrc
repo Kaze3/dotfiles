@@ -20,3 +20,6 @@ alias emacs='emacs -nw'
 
 # Environment Variables
 export EDITOR='emacs -nw'
+
+# Autocomplete sudo commands
+complete -cf sudo
