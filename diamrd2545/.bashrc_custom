@@ -1,5 +1,7 @@
 # Environment Variables
-export http_proxy="http://wwwcache.rl.ac.uk:8080"
+proxy=http://wwwcache.rl.ac.uk:8080
+export http_proxy=$proxy
+export https_proxy=$proxy
 
 # Aliases
 alias henry="ssh -D 8888 henry"
