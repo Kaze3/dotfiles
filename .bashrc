@@ -36,12 +36,16 @@ if $isArch; then
   # If we're not root...
   if ! $isRoot; then
     alias pacman='sudo pacman'
+    alias packer='sudo packer'
   fi
 
   alias update='pacman -Syu'
   alias install='pacman -S'
   alias remove='pacman -R'
   alias removedeps='pacman -Rs'
+
+  alias updateaur='packer -Syu --noedit'
+  alias installaur='packer -S --noedit'
 fi
 
 # Environment Variables
