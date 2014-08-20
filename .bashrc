@@ -5,6 +5,11 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Set terminal to display 256 colours
+if [ -e /usr/share/terminfo/x/xterm-256color ]; then
+    export TERM='xterm-256color'
+fi
+
 # Machine-specific settings go in here
 [[ -f ~/.bashrc_custom ]] && . ~/.bashrc_custom
 
