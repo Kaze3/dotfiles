@@ -1,0 +1,56 @@
+Font=DejaVu Sans Mono
+FontHeight=10
+FontSmoothing=full
+BoldAsFont=no
+BoldAsColour=no
+
+Columns=100
+Rows=30
+Transparency=medium
+OpaqueWhenFocused=yes
+Scrollbar=none
+
+Locale=en_GB
+Charset=UTF-8
+
+Term=xterm-256color
+
+# base0
+ForegroundColour=131,148,150
+# base03
+BackgroundColour=0,43,54
+# base0
+CursorColour=131,148,150
+
+# base02
+Black=7,54,66
+# base03
+BoldBlack=0,43,54
+# red
+Red=220,50,47
+# orange
+BoldRed=203,75,22
+# green
+Green=133,153,0
+# base01
+BoldGreen=88,110,117
+# yellow
+Yellow=181,137,0
+# base00
+BoldYellow=101,123,131
+# blue
+Blue=38,139,210
+# base0
+BoldBlue=131,148,150
+# magenta
+Magenta=211,54,130
+# violet
+BoldMagenta=108,113,196
+# cyan
+Cyan=42,161,152
+# base1
+BoldCyan=147,161,161
+# base2
+White=238,232,213
+# base3
+BoldWhite=253,246,227
