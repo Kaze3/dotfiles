@@ -83,3 +83,7 @@
 
 ;; remove useless whitespace before saving
 (add-hook 'before-save-hook 'whitespace-cleanup)
+
+;; don't show startup message
+(setq inhibit-splash-screen t)
+(setq inhibit-startup-message t)
