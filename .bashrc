@@ -32,12 +32,22 @@ alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+alias startd='sudo systemctl start'
+alias stopd='sudo systemctl stop'
+alias restartd='sudo systemctl restart'
+alias statusd='systemctl status'
+
 # Make parent dirs
 alias mkdir='mkdir -pv'
 
 alias rmr='rm -R'
 alias searchrunning='ps ax | grep'
 alias emacs='TERM=xterm-16color emacs -nw'
+alias semacs='TERM=xterm-16color sudo -e'
 
 # If we're on Arch...
 if $isArch; then
