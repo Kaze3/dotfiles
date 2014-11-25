@@ -49,6 +49,15 @@ alias searchrunning='ps ax | grep'
 alias emacs='TERM=xterm-16color emacs -nw'
 alias semacs='TERM=xterm-16color sudo -e'
 
+# Git
+alias gs='git status'
+alias gc='git commit'
+alias gcm='git commit -m'
+alias gcam='git commit -am'
+alias ga='git add'
+alias gaa='git add -A'
+alias gd='git diff'
+
 # If we're on Arch...
 if $isArch; then
   # If we're not root...
