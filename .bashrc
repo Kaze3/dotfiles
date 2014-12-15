@@ -49,6 +49,8 @@ alias searchrunning='ps ax | grep'
 alias emacs='TERM=xterm-16color emacs -nw'
 alias semacs='TERM=xterm-16color sudo -e'
 
+alias list-filesizes='du -d 1 -h -a | sort -h'
+
 # Git
 alias gs='git status'
 alias gc='git commit'
