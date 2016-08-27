@@ -24,7 +24,7 @@ isRoot=false
 [[ -f ~/.dir_colors ]] && eval `dircolors ~/.dir_colors`
 
 # Custom Prompt
-PS1='\[\e[0;34m\]\u\[\e[0;32m\]@\[\e[0;32m\]\h: \[\e[0;33m\]\w \[\e[0;32m\]\n\$ \[\e[0m\]'
+PS1='\[\e[0;34m\]\u\[\e[0;32m\]@\[\e[0;32m\]\h: \[\e[0;33m\]\w \[\e[0;32m\]\n\$ \[\e[01;34m\]'
 
 # Aliases
 alias ls='ls --color=auto -hF'
@@ -51,6 +51,8 @@ alias semacs='TERM=xterm-16color sudo -e'
 
 alias list-filesizes='du -d 1 -h -a | sort -h'
 
+alias killprocess='sudo kill -9'
+
 # Git
 alias gs='git status'
 alias gc='git commit'
@@ -65,7 +67,7 @@ if $isArch; then
   # If we're not root...
   if ! $isRoot; then
     alias pacman='sudo pacman'
-    alias packer='sudo packer'
+    #alias packer='sudo packer'
   fi
 
   alias update='pacman -Syu'
