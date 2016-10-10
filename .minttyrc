@@ -1,18 +1,13 @@
-Font=DejaVu Sans Mono
+Font=DejaVu Sans Mono for Powerline
 FontHeight=11
 FontSmoothing=full
 BoldAsFont=no
-BoldAsColour=no
+BoldAsColour=yes
 
-Columns=100
-Rows=30
-Transparency=medium
-OpaqueWhenFocused=yes
 Scrollbar=none
-
+BellType=0
 Locale=en_GB
 Charset=UTF-8
-
 Term=xterm-256color
 
 # base0
