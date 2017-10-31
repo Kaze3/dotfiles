@@ -23,8 +23,17 @@ isRoot=false
 # Solarized Directory Colours
 [[ -f ~/.dir_colors ]] && eval `dircolors ~/.dir_colors`
 
+RED='\[\033[0;31m\]'
+GREEN='\[\033[0;32m\]'
+YELLOW='\[\033[0;33m\]'
+BLUE="\[\033[0;34m\]"
+MAGENTA='\[\033[0;35m\]'
+CYAN='\[\033[0;36m\]'
+WHITE='\[\033[0;37m\]'
+RESET='\[\033[0m\]'
+
 # Custom Prompt
-PS1='\[\e[0;34m\]\u\[\e[0;32m\]@\[\e[0;32m\]\h: \[\e[0;33m\]\w \[\e[0;32m\]\n\$ \[\e[01;34m\]'
+PS1="$BLUE\u$GREEN@$GREEN\h: $YELLOW\w$RESET\n$GREEN\$ $RESET"
 
 # Aliases
 alias ls='ls --color=auto -hF'
