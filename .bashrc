@@ -50,13 +50,16 @@ alias stopd='sudo systemctl stop'
 alias restartd='sudo systemctl restart'
 alias statusd='systemctl status'
 
+alias rscp='rsync -aP'
+alias rsmv='rsync -aP --remove-source-files'
+
 # Make parent dirs
 alias mkdir='mkdir -pv'
 
 alias rmr='rm -R'
 alias searchrunning='ps ax | grep'
-alias emacs='TERM=xterm-16color emacs -nw'
-alias semacs='TERM=xterm-16color sudo -e'
+#alias emacs='TERM=xterm-16color emacs -nw'
+#alias semacs='TERM=xterm-16color sudo -e'
 
 alias list-filesizes='du -d 1 -h -a | sort -h'
 
