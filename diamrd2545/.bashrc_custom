@@ -1,2 +1,5 @@
 # Aliases
-alias henry="ssh -D 8888 henry"
+alias henry="ssh -q -D 8910 henry"
+
+# Change to home directory
+cd ~
