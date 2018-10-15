@@ -20,7 +20,7 @@ isArch=false
 isRoot=false
 [[ $UID -eq 0 ]] && isRoot=true
 
-# Solarized Directory Colours
+# Directory Colours
 [[ -f ~/.dir_colors ]] && eval `dircolors ~/.dir_colors`
 
 RED='\[\033[0;31m\]'
