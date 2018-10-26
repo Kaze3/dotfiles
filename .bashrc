@@ -49,6 +49,8 @@ alias startd='sudo systemctl start'
 alias stopd='sudo systemctl stop'
 alias restartd='sudo systemctl restart'
 alias statusd='systemctl status'
+alias enabled='sudo systemctl enable'
+alias disabled='sudo systemctl disable'
 
 alias rscp='rsync -aP'
 alias rsmv='rsync -aP --remove-source-files'
