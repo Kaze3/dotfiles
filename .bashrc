@@ -58,8 +58,8 @@ alias mkdir='mkdir -pv'
 
 alias rmr='rm -R'
 alias searchrunning='ps ax | grep'
-#alias emacs='TERM=xterm-16color emacs -nw'
-#alias semacs='TERM=xterm-16color sudo -e'
+alias ec='emacsclient -c'
+alias et='emacsclient -t'
 
 alias list-filesizes='du -d 1 -h -a | sort -h'
 
@@ -92,7 +92,8 @@ if $isArch; then
 fi
 
 # Environment Variables
-export EDITOR='emacs -nw'
+export EDITOR='emacsclient -t'
+export VISUAL='emacsclient -c -a emacs'
 
 # Autocomplete sudo commands
 complete -cf sudo
