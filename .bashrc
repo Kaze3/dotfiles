@@ -36,7 +36,7 @@ RESET='\[\033[0m\]'
 PS1="$BLUE\u$GREEN@$GREEN\h: $YELLOW\w$RESET\n$GREEN\$ $RESET"
 
 # Aliases
-alias ls='ls --color=auto -hF'
+alias ls='ls --color=auto -hFN --group-directories-first'
 alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
@@ -76,21 +76,19 @@ alias ga='git add'
 alias gaa='git add -A'
 alias gd='git diff'
 
+alias motd='/etc/profile.d/motd.sh'
+
 # If we're on Arch...
 if $isArch; then
   # If we're not root...
   if ! $isRoot; then
     alias pacman='sudo pacman'
-    #alias packer='sudo packer'
   fi
 
   alias update='pacman -Syu'
   alias install='pacman -S'
   alias remove='pacman -R'
   alias removedeps='pacman -Rs'
-
-  alias updateaur='packer -Syu --noedit'
-  alias installaur='packer -S --noedit'
 fi
 
 # Environment Variables
